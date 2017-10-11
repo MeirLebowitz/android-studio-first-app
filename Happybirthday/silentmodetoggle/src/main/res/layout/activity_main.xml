@@ -3,6 +3,13 @@
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     >
-</FrameLayout>    
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/ringer_on"/>
+
+
+</FrameLayout>
